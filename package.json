@@ -1,0 +1,21 @@
+{
+  "name": "cli-exp",
+  "version": "0.0.1",
+  "description": "A CLI application Creating a webserver",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "app.js",
+  "author": "Akhilanand Singh",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+       "myhello": "./hello.js",
+       "myexp"  : "./app.js",
+       "myio"   : "./myreadline.js"
+   },
+   "dependencies": {
+    "express": "^4.13.4",
+    "body-parser": "latest"
+  }
+}
